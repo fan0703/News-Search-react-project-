@@ -1,11 +1,11 @@
 import React from "react";
-
+import "./newsItem.css"
 export default function NewsItem({ title, description, url, urlToImage }) {
   return (
     <div className="NewsItem">
       <img className="newsImage" src={urlToImage} alt={urlToImage} />
-      <h2><a href={url}>{title}</a></h2>
-      <p>{description}</p>
+      <h2 className="newsItem-title"><a href={url}>{title}</a></h2>
+      <p className="newsItem-text">{description}</p>
     </div>
   );
 }

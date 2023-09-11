@@ -1,0 +1,13 @@
+.NewsItem{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.newsImage{
+    width: 500px;
+}
+.newsItem-text{
+    justify-content: space-evenly;
+}
