@@ -4,6 +4,7 @@ export default function SearchBar(props) {
   const [searchData, setSearchData] = useState({ searchterm: "" });
   const handleChange = (e) => {
     setSearchData({ ...searchData, [e.target.name]: e.target.value });
+    console.log(e.target.value)
   };
   const handleSubmit = (e) => {
     e.preventDefault()
