@@ -19,7 +19,7 @@ export default function SearchBar(props) {
           onChange={handleChange}
           value={searchData.searchterm}
         />
-        <input type="submit" value="submit" />
+        <input type="submit" value="Search" />
       </form>
     </div>
   );

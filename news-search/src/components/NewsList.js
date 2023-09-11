@@ -7,7 +7,6 @@ export default function NewsList({articles}) {
       {articles.map((article) => {
         return (
           <div className="newList-app">
-            {/* <SearchBar articlesearch={getAriticles} /> */}
             <NewsItem
               title={article.title}
               description={article.description}
