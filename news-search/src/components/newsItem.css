@@ -6,7 +6,8 @@
 
 
 .newsImage{
-    width: 500px;
+    width: 600px;
+    height: 400px;
 }
 .newsItem-text{
     justify-content: space-evenly;
