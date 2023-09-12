@@ -13,13 +13,15 @@ export default function SearchBar(props) {
   return (
     <div className="searchBar">
       <form onSubmit={handleSubmit}>
-        <input
+        <input className="searchBarInput"
+        
           type="text"
+          placeholder="Search by key words"
           name="searchterm"
           onChange={handleChange}
           value={searchData.searchterm}
         />
-        <input type="submit" value="Search" />
+        <input className="searchButton" type="submit" value="Search" />
       </form>
     </div>
   );

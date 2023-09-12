@@ -1,7 +1,6 @@
-import NewsItem from "./NewsItem";
+import NewsItem from "../newsItem/NewsItem";
 
-
-export default function NewsList({articles}) {
+export default function NewsList({ articles }) {
   return (
     <div className=" NewList">
       {articles.map((article) => {

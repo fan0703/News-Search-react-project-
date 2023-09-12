@@ -1,21 +1,21 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import "./nav.css"
+import React from "react";
+import { Link } from "react-router-dom";
+import "./nav.css";
 
 export default function Nav(props) {
   return (
-    <div className='Nav'>
-        <Link to="/">
-            <div className='title'>FanNews</div>
-        </Link> 
+    <div className="Nav">
+      <Link to="/">
+        <div className="title">FanNews</div>
+      </Link>
+      <div className="Nav_right">
         <Link to="/about">
-            <div className='headlines'>About</div>
+          <div className="headlines">About</div>
         </Link>
         <Link to="/News">
-            <div className='headlines'>Top-Headlines</div>
+          <div className="headlines">Top-Headlines</div>
         </Link>
-      
-        
+      </div>
     </div>
-  )
+  );
 }
