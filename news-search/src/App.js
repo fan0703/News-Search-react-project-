@@ -8,7 +8,7 @@ import Nav from "./components/nav/Nav";
 import Homepage from "./pages/Homepage";
 import About from "./pages/About";
 import Dashboard from "./pages/Dashboard";
-import News from "./pages/News";
+
 function App() {
   const [articles, setArticles] = useState([]);
   const getAriticles = async (searchterm) => {
@@ -25,7 +25,7 @@ function App() {
     }
   };
   useEffect(() => {
-    getAriticles("football");
+    getAriticles("fun");
   }, []);
 
   return (
@@ -34,8 +34,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
-        <Route path="/News" element={<Dashboard />} />
-        <Route path="/News/:symbol" element={<News />} />
+        <Route path="/Sign_in" element={<Dashboard />} />
       </Routes>
       <SearchBar articlesearch={getAriticles} />
       <NewsList articles={articles} />

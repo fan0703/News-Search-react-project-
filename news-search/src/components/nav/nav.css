@@ -1,7 +1,7 @@
 .Nav {
     display: flex;
     justify-content: space-between;
-    background-color:purple;
+    background-color:orangered;
     color: white;
     padding: 15px;
     font-size: 2em;
@@ -10,8 +10,9 @@
   .Nav a {
     color: white;
     text-decoration: none;
+
   }
-  .headlines{
+  .head{
     font-size: 20px;
     margin-top: 20px;
   
@@ -22,4 +23,5 @@
     display: flex;
     gap: 4rem;
     margin-right: 100px;
+    margin-left: 100px;
   }

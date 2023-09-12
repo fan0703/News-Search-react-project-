@@ -10,10 +10,10 @@ export default function Nav(props) {
       </Link>
       <div className="Nav_right">
         <Link to="/about">
-          <div className="headlines">About</div>
+          <div className="head">About</div>
         </Link>
-        <Link to="/News">
-          <div className="headlines">Top-Headlines</div>
+        <Link to="/Sign_in">
+          <div className="head">Sign in</div>
         </Link>
       </div>
     </div>
